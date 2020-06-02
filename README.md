@@ -6,6 +6,7 @@
 ## Features
   - Start and stop method
   - Customize wheel color
+  - Responsive
 
 ## Use
   Import script in your webpage or application
