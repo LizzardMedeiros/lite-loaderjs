@@ -1,7 +1,7 @@
 # Simple Lite JS Loader
 > A lite JS loader css based for webpages and applications
 
-![Screenshot](https://github.com/LizzardMedeiros/lite-loaderjs/blob/master/examples/ex.png?raw=true)
+![Screenshot](https://i.imgur.com/Lp4CklM.png)
 
 ## Features
   - Start and stop method
