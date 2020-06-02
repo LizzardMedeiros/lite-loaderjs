@@ -1,0 +1,23 @@
+{
+  "name": "lite-loadjs",
+  "version": "1.0.0",
+  "description": "A lite JS loader css based for webpages and applications",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LizzardMedeiros/lite-loaderjs.git"
+  },
+  "keywords": [
+    "loader",
+    "javascript"
+  ],
+  "author": "LizzardM",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LizzardMedeiros/lite-loaderjs/issues"
+  },
+  "homepage": "https://github.com/LizzardMedeiros/lite-loaderjs#readme"
+}

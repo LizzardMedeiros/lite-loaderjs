@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple Loader Example</title>
+</head>
+<body>
+
+  <p>Click and wait 5 seconds</p>
+  <button id='start'>Start loading...</button>
+  
+  <script type="module">
+    import startLoader from '../index.js';
+
+    const loader = startLoader();
+    loader.init();
+    loader.wheelColor = "red";
+
+    document.getElementById('start').addEventListener('click', function () {
+      loader.start();
+      setTimeout(() => loader.stop(), 5000);
+    });
+
+  </script>
+</body>
+</html>
