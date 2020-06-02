@@ -1,6 +1,8 @@
 # Simple Lite JS Loader
 > A lite JS loader css based for webpages and applications
 
+![Screenshot](https://github.com/LizzardMedeiros/lite-loaderjs/blob/master/examples/ex.png?raw=true)
+
 ## Features
   - Start and stop method
   - Customize wheel color
