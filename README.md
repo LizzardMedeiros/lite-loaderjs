@@ -1,17 +1,17 @@
 # Simple Lite JS Loader
 > A lite JS loader css based for webpages and applications
 
-![Screenshot](https://github.com/LizzardMedeiros/lite-loaderjs/blob/master/examples/ex.png?raw=true)
+![Screenshot](https://i.imgur.com/Lp4CklM.png)
 
 ## Features
   - Start and stop method
-  - Customize wheel color
+  - Customize colors, thickness and size
+  - Responsive
 
-## Usage
-  Import script in your webpage or application after document load
+## Use
+  Import script in your webpage or application
 
     ```
-    <script type="module">
       import startLoader from 'index.js';
     ...
 
@@ -27,10 +27,17 @@
 
     ```
 
-  Set wheel color as you wish
+  Set wheel preferences
 
     ```
-    loader.setColor('#55F233', 'red');
+    // Color [base, detail, background]
+    loader.setColor('#55F233', 'red', '#842020E9');
+
+    // Wheel Size
+    loader.setSize('80px');
+
+    // Thickness
+    loader.setThickness('8px');
     ...
 
     ```
@@ -43,4 +50,4 @@
 
     ```
 
-Feel free to distribute!!!
+Feel free to share!!!

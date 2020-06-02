@@ -1,7 +1,4 @@
 #_spinner {
-  position: absolute;
-  left: calc(50vw - 30px);
-  top: calc(50vh - 30px);
   width: 60px;
   height: 60px;
   z-index: 11;
@@ -12,11 +9,14 @@
   animation: spin 2s linear infinite;
 }
 #_loader{
+  display: flex;
+  justify-content: center;
+  align-items: center;
   position: fixed;
   top:0;
   left:0;
   z-index: 10;
-  background-color: rgba(.51,.51,.51,.8);
+  background-color: #00000080;
   width: 100vw;
   height: 100vh;
 }
