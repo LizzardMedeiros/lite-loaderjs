@@ -14,7 +14,7 @@
     <script type="module">
       import startLoader from 'index.js';
     ...
-    
+
     ```
 
   Initialize the component after all DOM loaded
@@ -30,7 +30,7 @@
   Set wheel color as you wish
 
     ```
-    loader.wheelColor = '#55F233';
+    loader.setColor('#55F233', 'red');
     ...
 
     ```
