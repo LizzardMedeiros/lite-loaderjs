@@ -7,11 +7,10 @@
   - Start and stop method
   - Customize wheel color
 
-## Usage
-  Import script in your webpage or application after document load
+## Use
+  Import script in your webpage or application
 
     ```
-    <script type="module">
       import startLoader from 'index.js';
     ...
 
@@ -27,7 +26,7 @@
 
     ```
 
-  Set wheel color as you wish
+  Set wheel color preference
 
     ```
     loader.setColor('#55F233', 'red');
@@ -43,4 +42,4 @@
 
     ```
 
-Feel free to distribute!!!
+Feel free to share!!!
