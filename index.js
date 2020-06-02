@@ -52,6 +52,8 @@ export default function() {
 
   return {
     init,
+    setSize,
+    setThickness,
     setColor,
     start,
     stop
