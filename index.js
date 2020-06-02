@@ -2,38 +2,43 @@ const style = '#_spinner{position:absolute;left:calc(50vw - 30px);top:calc(50vh 
 
 export default function() {
   let wheelColor = '#e53935';
-  let cOverflow = "auto";
-  const body = document.querySelector("BODY");
+  let baseColor = '#f3f3f3';
+  let cOverflow = 'auto';
+  const body = document.querySelector('BODY');
 
   function init() {
-    this.overflow = body.style.overflow || "auto";
+    cOverflow = body.style.overflow || 'auto';
     if(!document.querySelector('#_style')) {
       document.querySelector('HEAD').appendChild(document.createElement('style')).innerText = style;
     }
   }
 
   function start() {
-    body.style.overflow = "hidden";
+    body.style.overflow = 'hidden';
     if(!document.querySelector('#_loader')) {
       let el = body.insertBefore(document.createElement('div'), body.firstChild);
       el.id = '_loader';
       el = el.appendChild(document.createElement('div'));
       el.id = '_spinner';
+      el.style.borderColor = baseColor;
       el.style.borderTopColor = wheelColor;
     }
   }
 
   function stop() {
     body.style.overflow = cOverflow;
-    if(document.querySelector('#_loader')) {
-      body.removeChild(document.querySelector('#_loader'));
-    }
+    if(document.querySelector('#_loader')) body.removeChild(document.querySelector('#_loader'));
+  }
+
+  function setColor(base, wheel) {
+    baseColor = base;
+    wheelColor = wheel;
   }
 
   return {
     init,
+    setColor,
     start,
     stop
   }
 }
-
