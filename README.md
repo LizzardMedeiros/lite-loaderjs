@@ -5,11 +5,8 @@
 
 ## Features
   - Start and stop method
-<<<<<<< HEAD
   - Customize colors, thickness and size
-=======
   - Customize wheel color
->>>>>>> a979dd2f6b6c766a628d77a366beacda4d01a6d6
   - Responsive
 
 ## Use
@@ -31,11 +28,7 @@
 
     ```
 
-<<<<<<< HEAD
   Set wheel preferences
-=======
-  Set wheel color preference
->>>>>>> a979dd2f6b6c766a628d77a366beacda4d01a6d6
 
     ```
     // Color [base, detail, background]
