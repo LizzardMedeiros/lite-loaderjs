@@ -12,7 +12,7 @@
 
     ```
     <script type="module">
-      import startLoader from 'loaderjs';
+      import startLoader from 'index.js';
     ...
     ```
 
